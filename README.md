@@ -1,1 +1,1 @@
-# snowflake-git-sample
+# snowflake_git_sample
