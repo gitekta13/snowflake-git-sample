@@ -1,1 +1,6 @@
 CREATE STAGE my_stage;
+PUT file://~/sql/scripts/create-inventory.sql @my_stage/scripts/
+  AUTO_COMPRESS=FALSE;
+
+PUT file://~/sql/scripts/insert-inventory.sql @my_stage/scripts/
+  AUTO_COMPRESS=FALSE;
